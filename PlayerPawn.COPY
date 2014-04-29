@@ -1,0 +1,108 @@
+Begin Object Class=Blueprint Name="PlayerPawn"
+   Begin Object Class=EdGraph Name="EventGraph"
+   End Object
+   Begin Object Class=EdGraph Name="UserConstructionScript"
+      Begin Object Class=K2Node_FunctionEntry Name="K2Node_FunctionEntry_0"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_0"
+         End Object
+      End Object
+   End Object
+   Begin Object Class=SceneThumbnailInfo Name="SceneThumbnailInfo_0"
+   End Object
+   Begin Object Class=SceneComponent Name="SceneComponent_4"
+   End Object
+   Begin Object Class=EdGraph Name="ExecuteUbergraph_PlayerPawn"
+      Begin Object Class=K2Node_FunctionEntry Name="K2Node_FunctionEntry_190"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_5522"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_5523"
+         End Object
+      End Object
+   End Object
+   Begin Object Class=EdGraph Name="EdGraph_37"
+      Begin Object Class=K2Node_FunctionEntry Name="K2Node_FunctionEntry_0"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_0"
+         End Object
+      End Object
+   End Object
+   Begin Object Name="EventGraph"
+      Schema=Class'/Script/BlueprintGraph.EdGraphSchema_K2'
+      bAllowDeletion=False
+      GraphGuid=39775208499E2F47DD59F2AAEF742784
+   End Object
+   Begin Object Name="UserConstructionScript"
+      Begin Object Name="K2Node_FunctionEntry_0"
+         Begin Object Name="EdGraphPin_0"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         SignatureClass=Class'/Script/Engine.Actor'
+         SignatureName="UserConstructionScript"
+         Pins(0)=EdGraphPin'EdGraphPin_0'
+         NodeGuid=C93813FB4DF77915C47E02B61B0909C2
+      End Object
+      Schema=Class'/Script/BlueprintGraph.EdGraphSchema_K2'
+      Nodes(0)=K2Node_FunctionEntry'K2Node_FunctionEntry_0'
+      bAllowDeletion=False
+      GraphGuid=74C9D9E6417B888B2ADE16ABB1DE5877
+   End Object
+   Begin Object Name="SceneThumbnailInfo_0"
+      OrbitPitch=52.750000
+      OrbitYaw=-92.500000
+      OrbitZoom=202.000000
+   End Object
+   Begin Object Name="SceneComponent_4"
+   End Object
+   Begin Object Name="ExecuteUbergraph_PlayerPawn"
+      Begin Object Name="K2Node_FunctionEntry_190"
+         Begin Object Name="EdGraphPin_5522"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_5523"
+            PinName="EntryPoint"
+            Direction=EGPD_Output
+            PinType=(PinCategory="int")
+         End Object
+         CustomGeneratedFunctionName="ExecuteUbergraph_PlayerPawn"
+         SignatureClass=Class'/Script/CoreUObject.Object'
+         SignatureName="ExecuteUbergraph"
+         Pins(0)=EdGraphPin'EdGraphPin_5522'
+         Pins(1)=EdGraphPin'EdGraphPin_5523'
+         NodePosX=-2000
+         NodePosY=-2000
+         NodeGuid=ADFC39974C97F9F38D9F6591D9CBF9C2
+      End Object
+      Schema=Class'/Script/BlueprintGraph.EdGraphSchema_K2'
+      Nodes(0)=K2Node_FunctionEntry'K2Node_FunctionEntry_190'
+      GraphGuid=DD73A6274311E3B453450EA89BB62BD0
+   End Object
+   Begin Object Name="EdGraph_37"
+      Begin Object Name="K2Node_FunctionEntry_0"
+         Begin Object Name="EdGraphPin_0"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         SignatureClass=Class'/Script/Engine.Actor'
+         SignatureName="UserConstructionScript"
+         Pins(0)=EdGraphPin'EdGraphPin_0'
+         NodeGuid=C93813FB4DF77915C47E02B61B0909C2
+      End Object
+      Schema=Class'/Script/BlueprintGraph.EdGraphSchema_K2'
+      Nodes(0)=K2Node_FunctionEntry'K2Node_FunctionEntry_0'
+      bAllowDeletion=False
+      GraphGuid=74C9D9E6417B888B2ADE16ABB1DE5877
+   End Object
+   ParentClass=Class'/Script/ShooterGame.ShooterCharacter'
+   SimpleConstructionScript=SimpleConstructionScript'SimpleConstructionScript_3'
+   UbergraphPages(0)=EdGraph'EventGraph'
+   FunctionGraphs(0)=EdGraph'UserConstructionScript'
+   BlueprintSystemVersion=2
+   ThumbnailInfo=SceneThumbnailInfo'SceneThumbnailInfo_0'
+   GeneratedClass=BlueprintGeneratedClass'PlayerPawn_C'
+   bLegacyNeedToPurgeSkelRefs=False
+   bLegacyGeneratedClassIsAuthoritative=True
+End Object
